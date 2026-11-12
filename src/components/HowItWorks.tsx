@@ -34,7 +34,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onNavigate }) => {
     },
     {
       number: '04',
-      title: 'Stake in The Well for ETH Yield',
+      title: 'Stake in The ZYNDEX for ETH Yield',
       description:
         'Stake your native $ZYNDEX tokens with zero lockup to earn a direct 30% share of total protocol trading fees distributed weekly in ETH, plus up to 50% fee discounts.',
       icon: <Flame className="w-5 h-5 text-[#2DD4BF]" />,

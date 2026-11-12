@@ -7,7 +7,7 @@ export const DocsView: React.FC = () => {
   const topics = [
     { id: 'architecture', title: 'Protocol Architecture & Engine', icon: <Cpu className="w-4 h-4" /> },
     { id: 'vaults', title: 'Non-Custodial User Vaults', icon: <ShieldCheck className="w-4 h-4" /> },
-    { id: 'the-well', title: 'The Well & Revenue Tokenomics', icon: <Layers className="w-4 h-4" /> },
+    { id: 'the-well', title: 'The Zyndex & Revenue Tokenomics', icon: <Layers className="w-4 h-4" /> },
     { id: 'contracts', title: 'Smart Contracts & Audits', icon: <Code2 className="w-4 h-4" /> },
   ];
 
@@ -169,7 +169,7 @@ export const DocsView: React.FC = () => {
               <div className="space-y-6">
                 <div className="space-y-2 pb-4 border-b border-[#12242D]">
                   <h2 className="font-display text-2xl font-bold text-white">
-                    The Well & Revenue Tokenomics
+                    The ZYNDEX & Revenue Tokenomics
                   </h2>
                   <p className="text-xs text-[#2DD4BF] font-mono">
                     Token: $ZYNDEX · Total Supply: 10,000,000 Tokens
@@ -179,12 +179,12 @@ export const DocsView: React.FC = () => {
                 <div className="space-y-3">
                   <h3 className="font-display text-base font-bold text-white">1. Real Yield in Native ETH</h3>
                   <p>
-                    Unlike inflationary DeFi tokens that distribute newly printed tokens, The Well distributes 
+                    Unlike inflationary DeFi tokens that distribute newly printed tokens, The ZYNDEX distributes 
                     real, unadulterated protocol revenue in native ETH. Every time a vault harvests trading fees, 
                     the protocol 2% performance fee is split:
                   </p>
                   <ul className="list-disc list-inside space-y-1.5 text-xs text-slate-400 pl-2">
-                    <li><strong className="text-white">30% to The Well Stakers:</strong> Distributed continuously proportional to staked ZYNDEX weight.</li>
+                    <li><strong className="text-white">30% to The ZYNDEX Stakers:</strong> Distributed continuously proportional to staked ZYNDEX weight.</li>
                     <li><strong className="text-white">20% to Systematic Buyback & Burn:</strong> Converted to $ZYNDEX and destroyed on-chain.</li>
                     <li><strong className="text-white">10% to Safety & Insurance Vault:</strong> Liquid protocol reserve.</li>
                     <li><strong className="text-white">40% to Automation Infrastructure:</strong> Covers gas execution and multi-chain node infrastructure.</li>
@@ -213,7 +213,7 @@ export const DocsView: React.FC = () => {
                   </div>
 
                   <div className="p-3.5 rounded-xl bg-[#040A0D] border border-[#132A35] space-y-1">
-                    <div className="text-xs text-slate-400">The Well (Staking & ETH Revenue Distributor):</div>
+                    <div className="text-xs text-slate-400">The ZYNDEX (Staking & ETH Revenue Distributor):</div>
                     <code className="text-xs font-mono text-[#2DD4BF] block break-all">
                       0x4A13b631980D1F8438E6199349880182C0E4B312
                     </code>

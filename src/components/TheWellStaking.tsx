@@ -50,7 +50,7 @@ export const TheWellStaking: React.FC<TheWellStakingProps> = ({
           totalStakedZyndex: stakingData.totalStakedZyndex + val,
           userTier: newTier,
         });
-        showToast(`Successfully staked ${val.toLocaleString()} ZYNDEX in The Well!`);
+        showToast(`Successfully staked ${val.toLocaleString()} ZYNDEX in The ZYNDEX!`);
       } else {
         const newStaked = Math.max(0, stakingData.userStakedZyndex - val);
         let newTier = 0;
@@ -135,7 +135,7 @@ export const TheWellStaking: React.FC<TheWellStakingProps> = ({
               <span>THE REVENUE STREAMING WELL</span>
             </div>
             <h1 className="font-display text-3xl sm:text-4xl font-black text-white tracking-tight">
-              The Well: <span className="text-[#2DD4BF] neon-text-glow">Stake & Earn ETH</span>
+              The ZYNDEX: <span className="text-[#2DD4BF] neon-text-glow">Stake & Earn ETH</span>
             </h1>
             <p className="text-sm text-slate-300 max-w-2xl">
               Stake $ZYNDEX with zero lockup periods. Earn 30% of all protocol rebalancing and trading fees 
@@ -309,7 +309,7 @@ export const TheWellStaking: React.FC<TheWellStakingProps> = ({
                 ) : (
                   <>
                     <Sparkles className="w-4 h-4" />
-                    <span>{activeTab === 'stake' ? 'Stake $ZYNDEX in The Well' : 'Unstake $ZYNDEX'}</span>
+                    <span>{activeTab === 'stake' ? 'Stake $ZYNDEX in The ZYNDEX' : 'Unstake $ZYNDEX'}</span>
                   </>
                 )}
               </button>

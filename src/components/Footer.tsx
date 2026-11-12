@@ -61,7 +61,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   }}
                   className="hover:text-[#2DD4BF] transition-colors cursor-pointer"
                 >
-                  The Well (Stake)
+                  The ZYNDEX (Stake)
                 </button>
               </li>
               <li>

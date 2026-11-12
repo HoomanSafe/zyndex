@@ -65,7 +65,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 className="w-full sm:w-auto flex items-center justify-center gap-2 px-5 py-3.5 text-sm font-semibold text-slate-200 bg-[#07161D] hover:bg-[#0B212B] border border-[#163644] hover:border-[#2DD4BF]/40 rounded-xl transition-all cursor-pointer"
               >
                 <Flame className="w-4 h-4 text-[#2DD4BF]" />
-                <span>The Well (Stake & Earn ETH)</span>
+                <span>The ZYNDEX (Stake & Earn ETH)</span>
               </button>
 
               <button

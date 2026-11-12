@@ -173,7 +173,7 @@ export const WalletModal: React.FC<WalletModalProps> = ({
           /* Wallet Selector List */
           <div className="mt-4 space-y-2">
             <p className="text-xs text-slate-400 mb-3">
-              Connect your Web3 wallet to manage liquidity vaults, deposit tokens, and stake in The Well.
+              Connect your Web3 wallet to manage liquidity vaults, deposit tokens, and stake in The ZYNDEX.
             </p>
             {WALLETS.map((w) => (
               <button

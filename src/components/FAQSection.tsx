@@ -23,7 +23,7 @@ export const FAQSection: React.FC = () => {
             Frequently Asked <span className="text-[#2DD4BF] neon-text-glow">Questions</span>
           </h2>
           <p className="text-sm text-slate-300">
-            Everything you need to know about automated liquidity management and The Well.
+            Everything you need to know about automated liquidity management and The ZYNDEX.
           </p>
         </div>
 

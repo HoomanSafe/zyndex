@@ -332,8 +332,8 @@ export const FAQ_ITEMS = [
     a: 'On Uniswap v3 and v4, liquidity providers only earn fees when the spot price sits inside their configured minimum and maximum tick range. If the market breaks out, earnings halt immediately. ZYNDEX smart vaults continuously monitor market depth and automated oracles. When price moves near the border, our non-custodial rebalancing engine automatically shifts your range around the current price 24/7 without exposing your capital to custodial risk.',
   },
   {
-    q: 'What is The Well and how does staking work?',
-    a: 'The Well is ZYNDEX\'s native staking hub. Users can stake $ZYNDEX tokens with zero lockup periods. 30% of all protocol revenue is distributed directly to stakers in native ETH. Additionally, staking unlocks tiered protocol fee discounts up to 50% on all your liquidity vaults.',
+    q: 'What is The ZYNDEX and how does staking work?',
+    a: 'The ZYNDEX is ZYNDEX\'s native staking hub. Users can stake $ZYNDEX tokens with zero lockup periods. 30% of all protocol revenue is distributed directly to stakers in native ETH. Additionally, staking unlocks tiered protocol fee discounts up to 50% on all your liquidity vaults.',
   },
   {
     q: 'Can ZYNDEX steal or lock my deposited funds?',
