@@ -1,0 +1,6 @@
+{
+  "name": "ZYNDEX - Automated Liquidity Protocol",
+  "description": "Next-generation automated liquidity management on Uniswap and Robinhood Chain with dynamic range rebalancing, compound fee reinvestment, and non-custodial vaults.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
