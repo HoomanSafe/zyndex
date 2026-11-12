@@ -208,7 +208,7 @@ export const DocsView: React.FC = () => {
                   <div className="p-3.5 rounded-xl bg-[#040A0D] border border-[#132A35] space-y-1">
                     <div className="text-xs text-slate-400">ZYNDEX Protocol Core Engine:</div>
                     <code className="text-xs font-mono text-[#2DD4BF] block break-all">
-                      0x71Ce39B02241C748aBc3D52e0E677F0a498b49A2
+                      TBD
                     </code>
                   </div>
 
