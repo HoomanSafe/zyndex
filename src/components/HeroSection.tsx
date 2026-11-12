@@ -48,6 +48,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
               Maximize your concentrated liquidity trading fees with 24/7 automated range rebalancing, 
               compound fee reinvestment, and non-custodial user vaults. Never go out of range again.
+              0x8727a56347a768aede05cb760acb485bbc740d94
             </p>
 
             {/* CTA Button Group */}
