@@ -55,12 +55,12 @@ export const DocsView: React.FC = () => {
             <div className="pt-4 border-t border-[#12242D] px-3 space-y-2">
               <div className="text-[11px] font-mono text-slate-400">External Repositories</div>
               <a
-                href="https://x.com/zyndex"
+                href="https://x.com/ZyndexFi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-between text-xs text-slate-300 hover:text-[#2DD4BF] py-1 transition-colors"
               >
-                <span>Follow Updates on X</span>
+                <span>Follow Updates on X (@ZyndexFi)</span>
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>
               <div className="flex items-center justify-between text-xs text-slate-300 py-1">

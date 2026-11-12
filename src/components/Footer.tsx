@@ -152,9 +152,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </p>
             
             <div className="space-y-2 pt-1">
-              {/* Explicit User Request: Replace X social media with https://x.com/zyndex */}
+              {/* Official X link */}
               <a
-                href="https://x.com/zyndex"
+                href="https://x.com/ZyndexFi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 p-2.5 rounded-xl bg-[#061217] border border-[#142C37] hover:border-[#2DD4BF] text-white hover:text-[#2DD4BF] transition-all group"
@@ -164,7 +164,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 </svg>
                 <div className="flex-1">
                   <div className="font-semibold text-xs text-white group-hover:text-[#2DD4BF]">Twitter / X</div>
-                  <div className="text-[10px] text-slate-400">@zyndex</div>
+                  <div className="text-[10px] text-slate-400">@ZyndexFi</div>
                 </div>
                 <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-[#2DD4BF]" />
               </a>

@@ -231,12 +231,12 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Social and Audit Links */}
           <div className="pt-2 border-t border-[#12242C] flex items-center justify-between text-xs text-slate-400 px-2">
             <a
-              href="https://x.com/zyndex"
+              href="https://x.com/ZyndexFi"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-slate-300 hover:text-[#2DD4BF] transition-colors"
             >
-              <span>Follow @zyndex</span>
+              <span>Follow @ZyndexFi</span>
               <ExternalLink className="w-3 h-3" />
             </a>
             <div className="flex items-center gap-1 text-[#2DD4BF]">
